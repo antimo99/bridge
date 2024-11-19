@@ -1,0 +1,5 @@
+topics:
+    topic: /franka_state_controller/joint_states
+    type: sensor_msgs/JointState
+    queue_size: 1
+    
