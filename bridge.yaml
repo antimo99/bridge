@@ -11,4 +11,12 @@ topics:
     topic: /franka_state_controller/joint_states
     type: sensor_msgs/JointState
     queue_size: 1
+
+    topic: /tf
+    type: tf2_msgs/TFMessage
+    queue_size: 1
+
+    topic: /tf_static
+    type: tf2_msgs/TFMessage
+    queue_size: 1
     
